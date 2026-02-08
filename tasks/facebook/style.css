@@ -1,0 +1,232 @@
+
+
+
+* {
+    margin: 0;
+    font-family: poppins;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    z-index: 10;
+    border-bottom: 1px;
+    
+    
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar{
+    font-size: 40px;
+    display: flex;    
+    width:20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchbar input{
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.middleicon{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
+    color: #696c6f;
+}
+
+.righticon{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    gap: 30px;
+}
+
+
+.container {
+    display: flex;
+    background-color: #edecec;
+  
+}
+
+
+.right {
+    position: sticky;
+    top: 70px;
+    width: 20%;
+    height: calc(100vh - 70px);
+    
+}
+
+.center {
+    width: 60%;
+    font-size: 45px;
+}
+
+.left{
+    
+    height: calc(100vh - 70px);
+    width: 20%;
+    position: sticky;
+    top: 70px;
+
+
+}
+
+.leftmenu{
+    padding-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.leftmenu table{
+
+    border-spacing: 0 8px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: poppins;
+    
+}
+
+.center 
+
+.mind{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    white-space: nowrap;
+    padding: 3% 2% 3% 2%;
+    border: 1px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+
+input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #696c6f;
+}
+.story{
+    display: flex;
+    padding: 3% 2% 3% 2%;
+    margin: auto;
+    margin-top: 2px;
+    justify-content: center;
+}
+.story1{
+    border: 1px ;
+    height: 200px;
+    width: 150px;
+    margin: 3px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 1%;
+    background: url(girl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post{
+    border: 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 3% 2% 3% 2%;
+    margin: auto;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.post1{
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    justify-content: center;
+   
+    
+}
+
+.post11{
+    display: flex;
+    font-size: 30px;
+    width:80%;
+    justify-content: flex-start;
+
+}
+
+.post12{
+    font-size: 25px;
+
+}
+
+.post2{
+
+    padding: 3%;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 6%;
+    margin-right: 3%;
+}
+
+img{
+    width: 600px;
+    padding-top: 3%;
+    margin: auto;
+    padding-left: 6%;
+}
+
+.post3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.like{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+.right table{
+
+    margin-left: 6%;
+    margin-top: 5% ;
+    border-spacing: 0 8px;
+    font-weight: bold;
+    
+}
+
+.contact{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
